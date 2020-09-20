@@ -20,10 +20,10 @@ class TimerWidget extends StatelessWidget {
       percent: 0.8,
       center: Container(
         alignment: Alignment.center,
-        width: MediaQuery.of(context).size .height*0.21,
-        height: MediaQuery.of(context).size .height*0.21,
+        width: MediaQuery.of(context).size .height*0.216,
+        height: MediaQuery.of(context).size .height*0.216,
         decoration: BoxDecoration(
-            color: kScaffoldColor, borderRadius: BorderRadius.circular(MediaQuery.of(context).size .height*0.21 /2 )),
+            color: kScaffoldColor, borderRadius: BorderRadius.circular(MediaQuery.of(context).size .height*0.216 /2 )),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -56,7 +56,6 @@ class TimerWidget extends StatelessWidget {
           ],
         ),
       ),
-//                    circularStrokeCap: CircularStrokeCap.butt,
       backgroundColor: Colors.white,
     );
   }
